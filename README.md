@@ -1,3 +1,5 @@
+  ```
+  
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.10",
     "css-loader": "^5.2.0",
@@ -13,3 +15,5 @@
     "vue": "^3.0.11",
     "vuex": "^4.0.0"
   }
+  
+```
