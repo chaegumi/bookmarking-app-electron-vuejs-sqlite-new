@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmarking App</title>
+
+    <link rel="stylesheet" href="static/semantic/semantic.min.css">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <script src="./db.js"></script>
+    <div id="mountwrap">
+        <app></app>
+    </div>
+
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+    <!-- normal script imports etc  -->
+    <script src="static/jquery.min.js"></script>
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+
+    <script src="static/semantic/semantic.min.js"></script>
+
+    <script src="dist/build.js"> </script>
+</body>
+
+</html>
